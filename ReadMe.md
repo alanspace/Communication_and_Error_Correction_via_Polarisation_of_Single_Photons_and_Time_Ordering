@@ -3,7 +3,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-*Cover Image: "An oil painting constructed in DALL.E 2 showing a single photon with polarization being sent by Alice and being corrected by Bob by distant transmission."*
+<!-- *Cover Image: "An oil painting constructed in DALL.E 2 showing a single photon with polarization being sent by Alice and being corrected by Bob by distant transmission."* -->
 
 ---
 
@@ -26,7 +26,7 @@ All simulations and visualizations were conducted using Python with the NumPy, M
 - **Comprehensive Metrics Analysis:** Calculation of key performance indicators such as bits per photon (energy efficiency) and bits per time bin (spectral efficiency).
 - **Error and Channel Modeling:** Simulation of photon loss and addition errors to evaluate protocol robustness.
 - **Mutual Information Calculation:** In-depth analysis of channel capacity and information retention under noisy conditions.
-- **Modular and Reusable Code:** A central `functions.py` library contains all core logic, making the analysis notebooks clean and easy to follow.
+<!-- - **Modular and Reusable Code:** A central `functions.py` library contains all core logic, making the analysis notebooks clean and easy to follow. -->
 - **GPU Acceleration:** Support for Apple's Metal Performance Shaders (MPS) via PyTorch for accelerating large-scale array computations.
 
 
@@ -36,14 +36,14 @@ To run the simulations on your local machine, follow these steps.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/your-repository-name.git
-    cd your-repository-name
+    https://github.com/alanspace/Communication_and_Error_Correction_via_Polarisation_of_Single_Photons_and_Time_Ordering.git
+    cd Communication_and_Error_Correction_via_Polarisation_of_Single_Photons_and_Time_Ordering
     ```
 
 2.  **Create a Python virtual environment (recommended):**
     ```bash
-    python3 -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    python3 -m venv qkd
+    source qkd/bin/activate  # On Windows, use `venv\Scripts\activate`
     ```
 
 3.  **Install the required dependencies:**
