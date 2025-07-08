@@ -61,9 +61,9 @@ All the analysis and plot generation can be reproduced by running the cells in t
     ```bash
     jupyter notebook
     ```
-2.  **Open `Analysis_Notebook.ipynb`:** Run the cells sequentially to perform the calculations and generate the figures presented in the thesis.
+2.  **Open the jupyter notebooks :** Run the cells sequentially to perform the calculations and generate the figures presented in the thesis.
 <!-- 3.  **Core Logic:** The notebook imports the custom library `functions.py` (as `fn`). All the complex calculations for each protocol are contained within this file. -->
-3.  **GPU Usage:** The `functions.py` file includes PyTorch-based functions (suffixed with `_pt`) that will automatically detect and use Apple's MPS backend if it is available on your machine. This significantly speeds up calculations involving large arrays.
+<!-- 3.  **GPU Usage:** The `functions.py` file includes PyTorch-based functions (suffixed with `_pt`) that will automatically detect and use Apple's MPS backend if it is available on your machine. This significantly speeds up calculations involving large arrays. -->
 
 ## Key Results Summary
 
