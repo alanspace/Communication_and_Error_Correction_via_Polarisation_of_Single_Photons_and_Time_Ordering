@@ -1,0 +1,13 @@
+# Core scientific computing libraries
+numpy
+pandas
+matplotlib
+scipy
+
+# For running the Jupyter Notebooks
+jupyter
+
+# For GPU acceleration (includes MPS support on Mac)
+torch
+torchvision
+torchaudio
